@@ -2,17 +2,21 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh;
     flex-direction: column;
     background-color: white;
-    width: 850px;
-    border-radius: 10px;
+    width: 1150px;
+    border-radius: 30px;
+    margin: 100px;
 }
 
 .hangman-box img{
@@ -35,6 +39,9 @@ body{
 
 .keyboard {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .keyboard button{
@@ -43,4 +50,5 @@ body{
     font-size: 16px;
     cursor: pointer;
     background-color: aquamarine;
+    
 }
